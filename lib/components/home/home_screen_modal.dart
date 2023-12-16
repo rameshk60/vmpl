@@ -67,3 +67,18 @@ final List<MenuData> menu = [
   MenuData(Icons.departure_board_outlined, 'Delivery Receipt', "NewEnquiry()"),
   MenuData(Icons.view_list, 'more', "NewEnquiry()"),
 ];
+
+class CircularButton {
+  final double width;
+  final double height;
+  final Color color;
+  final Icon icon;
+  final Function onClick;
+
+  CircularButton(
+      {required this.color,
+      required this.width,
+      required this.height,
+      required this.icon,
+      required this.onClick});
+}
