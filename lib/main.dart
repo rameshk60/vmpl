@@ -27,8 +27,8 @@ void main([List<String>? envInfo]) {
   }
 
   VMPLConfigurationConstants.env = env;
-  VMPLConfigurationConstants.appUrl = apiUrls[env] ?? "";
-  VMPLConfigurationConstants.dataUrl = dataUrls[env] ?? "";
+  // VMPLConfigurationConstants.appUrl = apiUrls[env] ?? "";
+  // VMPLConfigurationConstants.dataUrl = dataUrls[env] ?? "";
   VMPLConfigurationConstants.dummyLoginUsername =
       ((VMPLConfigurationConstants.env == "dev")
           ? VMPLConfigurationConstants.dummyLoginUsername
